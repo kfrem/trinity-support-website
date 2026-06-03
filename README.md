@@ -1,13 +1,13 @@
 # Trinity Support Limited Website
 
-Static website and document portal for Trinity Support Limited.
+Static website and controlled document portal for Trinity Support Limited.
 
-Target domain: `trinitysupport.finaccord.pro`
+Live domain: `https://trinitysupport.finaccord.pro/`
 
-Deployment notes:
+Key files:
 
-- Upload or deploy the repository root to the Hostinger subdomain document root.
-- No build step is required.
-- `index.html` is the homepage.
-- `documents/library.json` powers the searchable portal.
-- Word downloads are stored in `downloads/`.
+- `index.html` - homepage, dashboard and searchable policy portal.
+- `documents/library.json` - searchable controlled document index.
+- `downloads/Trinity-Support-Policy-Manual.docx` - branded policy manual.
+- `downloads/Trinity-Support-Forms-Pack.docx` - branded forms pack.
+- `downloads/Trinity-Support-Policy-Transformation-Report.pdf` - report on old-pack issues and changes made.

@@ -11,7 +11,7 @@
 <body>
   <nav class="nav">
     <a class="brand" href="#top"><img src="assets/trinity-logo-option-6.png" alt="Trinity Support Limited logo"><span>Trinity Support Limited</span></a>
-    <div><a href="#services">Services</a><a href="#governance">Governance</a><a href="#portal">Policy portal</a><a href="#contact">Contact</a></div>
+    <div><a href="#services">Services</a><a href="#governance">Governance</a><a href="#dashboard">Dashboard</a><a href="#portal">Policy portal</a><a href="#contact">Contact</a></div>
   </nav>
   <header id="top" class="hero">
     <div class="hero-copy">
@@ -49,10 +49,28 @@
         <article><h3>Finance and Accounting</h3><p>Resident money controls, gifts, conflicts and financial audit evidence.</p></article>
       </div>
     </section>
+    <section id="dashboard" class="section dashboard">
+      <p class="eyebrow">Compliance dashboard</p>
+      <h2>Review dates, early triggers and management attention.</h2>
+      <div class="dashboard-stats">
+        <article><span id="total-docs">0</span><p>Controlled documents</p></article>
+        <article><span>3 Jun 2027</span><p>Annual review date</p></article>
+        <article><span id="priority-docs">0</span><p>Priority watch documents</p></article>
+      </div>
+      <div class="watch-panel">
+        <h3>Early review triggers</h3>
+        <p>Review before the annual date if there is a serious incident, safeguarding referral, complaint trend, commissioner finding, property/fire safety issue, data breach, staffing failure, finance irregularity, Ofsted/CQC/Housing Act update, or new local authority contract requirement.</p>
+      </div>
+      <div class="filters dashboard-filters">
+        <input id="dash-search" type="search" placeholder="Search dashboard by document, category or trigger">
+        <select id="dash-status"><option value="">All statuses</option><option>On schedule</option><option>Priority watch</option></select>
+      </div>
+      <div class="dashboard-table-wrap"><table class="dashboard-table"><thead><tr><th>Document</th><th>Type</th><th>Owner</th><th>Review due</th><th>Status</th><th>Early trigger to watch</th></tr></thead><tbody id="dashboard-rows"></tbody></table></div>
+    </section>
     <section id="portal" class="section portal">
       <div class="portal-head">
         <div><p class="eyebrow">Policy portal</p><h2>Search, open, print and download controlled documents.</h2></div>
-        <div class="downloads"><a class="button primary" href="downloads/Trinity-Support-Policy-Manual.docx">Policy manual</a><a class="button" href="downloads/Trinity-Support-Forms-Pack.docx">Forms pack</a></div>
+        <div class="downloads"><a class="button primary" href="downloads/Trinity-Support-Policy-Manual.docx">Policy manual</a><a class="button" href="downloads/Trinity-Support-Forms-Pack.docx">Forms pack</a><a class="button" href="downloads/Trinity-Support-Policy-Transformation-Report.pdf">PDF report</a></div>
       </div>
       <div class="filters">
         <input id="search" type="search" placeholder="Search policies, forms, owners or topics">
