@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Preserve deep links while moving the former Hostinger subdomain to the primary domain.
+RewriteCond %{HTTP_HOST} ^trinitysupport\.finaccord\.pro$ [NC]
+RewriteRule ^(.*)$ https://trinitysupport.uk/$1 [R=301,L,NE]
